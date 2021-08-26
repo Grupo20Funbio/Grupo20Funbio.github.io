@@ -27,10 +27,7 @@
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Caso Clinico</a>
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Miembros</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Unidad I</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Unidad II</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Unidad III</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Unidad IV</a>
+              <a class="tar_download_link" href="{{ site.github.tar_url }}">Entregables</a>
             </section>
           {% endif %}
         </header>
