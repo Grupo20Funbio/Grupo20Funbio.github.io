@@ -1405,7 +1405,7 @@ a:hover {
 /* Esto deberia arreglar las imagenes de la seccion 'Entregables' y de cada uno*/
 .modified-image {
   height: 250px;
-  width: 350px;
+  width: 250px;
   object-fit: cover;
 }
 .icon-image {
