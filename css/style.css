@@ -2123,3 +2123,74 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/* ==================================================
+  * Styles para entregable 2
+=====================================================
+*/
+
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.flex-section-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.headings {
+  font-size: 5rem;
+  color: #93a4d8;
+  margin-bottom: 1rem;
+  font-family: "Homemade Apple";
+}
+
+.subheadings {
+  color: #93a4d8;
+  font-weight: bold;
+}
+.images {
+  width: 100px;
+}
+
+.card {
+  background-color: #fef9dd;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 600;
+  justify-content: center;
+}
+.blue__card {
+  background-color: #93a4d8;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
