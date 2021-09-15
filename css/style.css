@@ -102,9 +102,14 @@ a:hover {
   color: #ddd;
 }
 
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .btn-transparent {
-  border: 1px solid #4e595f;
+  border: 1px solid #fff;
+	
 }
+
 
 .btn-transparent:hover,
 .btn-transparent:focus {
@@ -1365,7 +1370,7 @@ a:hover {
 ==================================================================*/
 .note {
   background-color: #292f36;
-  border: 1px solid #4e595f;
+  border: 1px solid #fff;
 }
 
 .post-block {
@@ -1385,7 +1390,7 @@ a:hover {
 }
 
 .note .media-wrapper {
-  border-bottom: 1px solid #4e595f;
+  border-bottom: 1px solid #fff;
 }
 
 .media-wrapper {
@@ -1474,7 +1479,9 @@ a:hover {
   margin: 20px 0;
   font-size: 16px;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .single-blog {
   background-color: #fff;
   margin-bottom: 50px;
@@ -1516,9 +1523,11 @@ a:hover {
   margin: 0 10px 0 0;
   display: inline-block;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .social-profile ul li a {
-  color: #4e595f;
+  color: #fff;
   display: block;
   font-size: 16px;
 }
@@ -1757,9 +1766,11 @@ a:hover {
 #blog-page {
   margin: 0 0 40px;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .post-item .entry {
-  border: 1px solid #4e595f;
+  border: 1px solid #fff;
   margin-bottom: 30px;
 }
 
@@ -1805,17 +1816,21 @@ a:hover {
 #post-thumb .owl-buttons {
   color: #fff;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .post-meta {
   background-color: #3d444a;
-  border-top: 1px solid #4e595f;
+  border-top: 1px solid #fff;
   font-size: 13px;
   margin: 20px 0 0;
   padding: 0 20px 10px;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .post-meta > span {
-  border-right: 1px solid #4e595f;
+  border-right: 1px solid #fff;
   display: inline-block;
   font-size: 12px;
   margin: 10px 10px 0 0;
@@ -2007,10 +2022,12 @@ blockquote {
   line-height: 22px;
   margin: 20px 0;
 }
-
+/*=================================================================
+Cambio en dos!!!
+==================================================================*/
 .next-prev {
-  border-bottom: 1px solid #4e595f;
-  border-top: 1px solid #4e595f;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
   margin: 20px 0;
   padding: 15px 0 10px;
 }
@@ -2034,18 +2051,22 @@ blockquote {
 .post-author {
   margin-right: 20px;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .post-author > img {
-  border: 1px solid #4e595f;
+  border: 1px solid #fff;
   max-width: 120px;
   padding: 5px;
   width: 100%;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .comment-reply-form > h3,
 .author-about > h4,
 .comments > h4 {
-  border-bottom: 1px solid #4e595f;
+  border-bottom: 1px solid #fff;
   margin-bottom: 15px;
   margin-top: 0;
   padding-bottom: 10px;
@@ -2067,9 +2088,11 @@ blockquote {
 .comment-list li {
   margin-bottom: 20px;
 }
-
+/*=================================================================
+Cambio!!!
+==================================================================*/
 .comment-wrap {
-  border: 1px solid #4e595f;
+  border: 1px solid #fff;
   border-radius: 1px;
   margin-left: 20px;
   padding: 10px;
