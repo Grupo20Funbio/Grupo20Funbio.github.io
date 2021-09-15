@@ -2220,100 +2220,145 @@ Cambio!!!
 
 /*# sourceMappingURL=maps/style.css.map */
 
-.intro-tables {
-	top: -130px;
-	position: relative;
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
 }
 
-.intro-table {
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: repeat;
-	background-position: 0% 0%;
+.services .icon-box::before {
+  content: '';
+  position: absolute;
+  background: #e1f0fa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
 }
 
-.intro-table-first {
-	background-image: url('../img/table-1.jpg');
+.services .icon-box:hover::before {
+  background: #3498db;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
 }
 
-.intro-table-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/table-2.jpg');
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #3498db;
+  transition: all 0.3s ease-in-out;
 }
 
-.intro-table-hover h4 {
-	-webkit-transform: translateY(170px);
-	transform: translateY(170px);
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
 }
 
-.intro-table-hover:hover {
-	background-image: url('../img/table-2-hover.jpg');
-	background-position: 50% 50%;
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.intro-table-third {
-	background-image: url('../img/table-3.jpg');
+.services .title a {
+  color: #111;
 }
 
-.intro-table-hover .expand {
-	margin: 30px;
-	margin-top: 120px;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s ease, opacity 0.3s;
-	-webkit-transform: scale(0.6);
-	-ms-transform: scale(0.6);
-	transform: scale(0.6);
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 
-.intro-table-hover:hover h4 {
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
+.services .icon-box:hover .title a, .services .icon-box:hover .description {
+  color: #fff;
 }
 
-.intro-table-hover:hover .expand {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
+.services .icon-box:hover .icon {
+  background: #fff;
 }
 
-.intro-table-hover .hide-hover {
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
+.services .icon-box:hover .icon i {
+  color: #3498db;
 }
 
-.intro-table-hover:hover .hide-hover {
-	opacity: 0;
+/*--------------------------------------------------------------
+# More Services
+--------------------------------------------------------------*/
+.more-services {
+  padding-top: 20px;
 }
 
-.intro-tables .intro-table {
-	position: relative;
-	width: 100%;
-	height: 300px;
-	margin: 20px 0;
+.more-services .card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.intro-tables .intro-table .heading {
-	margin: 0;
-	padding: 30px;
+.more-services .card-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
 }
 
-.intro-tables .intro-table .small-heading {
-	margin: 0;
-	padding: 0 30px;
+.more-services .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.intro-tables .intro-table .bottom {
-	position: absolute;
-	bottom: 0;
+.more-services .card-title a {
+  color: #222222;
 }
 
-.intro-tables .intro-table .owl-schedule .schedule-row {
-	padding: 10px 30px;
-	color: white;
-	transition: all 0.3s ease;
+.more-services .card-text {
+  color: #5e5e5e;
+}
+
+.more-services .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.more-services .read-more a:hover {
+  text-decoration: underline;
+}
+
+.more-services .card:hover .card-body {
+  background: #3498db;
+}
+
+.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+  color: #fff;
 }
