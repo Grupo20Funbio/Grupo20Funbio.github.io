@@ -26,7 +26,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
   color: #afbac4;
@@ -2336,3 +2336,5 @@ Cambio!!!
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+/*----- typed effect ---*/
+.typed-cursor{ opacity: 0;}
