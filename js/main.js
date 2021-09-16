@@ -1,3 +1,4 @@
+(function ($) {
  //typed js
     $(".typed").typed({
         strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
@@ -6,3 +7,4 @@
         // loop
         loop: true
     });
+})(jQuery);
