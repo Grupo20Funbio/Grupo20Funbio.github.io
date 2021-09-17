@@ -7,4 +7,5 @@
         // loop
         loop: true
     });
+
 })(jQuery);
