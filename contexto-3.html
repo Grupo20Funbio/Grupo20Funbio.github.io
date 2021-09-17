@@ -54,7 +54,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="banner-text">
-                             <h2 class="animation-box wow bounceIn animated"><strong >Conversión de voz </strong><br>para personas con Escloriosis Lateral Amiotrófica</h2>
+                             <h2 class="animation-box wow bounceIn animated"><strong >Sistema de comunicación basado en código Morse </strong><br>en pacientes con esclerosis lateral amiotrófica
+                             </h2>
                         </div> <!-- /.banner-text -->
                     </div>
                 </div>
@@ -65,14 +66,29 @@
     </section>
     <!-- /#header -->
 
+    <!-- HHHHHHHHHHHHHHHHHH      Screenshots    HHHHHHHHHHHHHHHH -->
+
+    <section id="gallery" class="wrapper">
+        <div class="row">
+        <div class="col-sm-4">
+            <div class="porduct">
+                <img class="image" src="images/Estu (4).png" 
+                  width="1500"
+                  heigth="1000"
+                  alt="image"
+                >
+            </div>
+        </div>
+</section>
+
     <!-- HHHHHHHHHHHHHHHHHH       Descripción        HHHHHHHHHHHHHHHH -->
     <div id="speciality" class="wrapper">
         <div class="container">
             <div class="row">
                 <p>
-                    A medida que el habla se deteriora, las personas utilizan generadores de voz para comunicarse usando una de las voces electrónicas genéricas del dispositivo. Para reemplazar estas voces genéricas y restaurar la identidad vocal el objetivo de está documentación es desarrollar voces personalizadas para personas con ELA mediante el enfoque de conversión de voz (CV).
+                    Esta aplicación se basa en técnicas de reconocimiento facial y rasgos faciales para extraer Regiones de interés (ROI) mediante la aplicación de filtros Haar y clasificador en cascada con OpenCV implementado en Visual Studio C #. Asimismo, se desarrolló un programa informático CodeBlink para transformar parpadeos en palabras, junto con una interfaz gráfica de usuario, en la que se muestran las letras del alfabeto en español y frases predefinidas., Como consecuencia, el paciente con ELA tiene la posibilidad de estructurar oraciones, así, facilitando su proceso de comunicación con familiares y personal médico.
 
-Para abordar el problema se propuso el enfoque de combinar una transformada espectral estructurada dispersa con deformación de frecuencia basada en regresión lineal múltiple para la conversión espectral y para la modificación de la velocidad de voz. Los datos experimentales incluyeron cuatro hablantes de fuentes sanas y cuatro hablantes de ELA  con disartria leve a grave, que forman 16 pares de hablantes. La conversión de voz modifica las características espectrales y prosódicas del habla de un hablante de origen para resintetizar el habla que suena como la voz de un hablante destino.  El estudio se enfocó en tres cuestiones clave (i) dar  un habla convertida, en este caso se logró una mejora del 80% en el habla; (ii) buena calidad para facilidad de escucha, la calidad de voz convertida estuvo cerca de la escala MOS “buena” en relación con la voz de los hablantes de origen “excelente”;  y (iii) similitud con el hablante objetivo para la identidad de voz, la voz convertida era 3 veces más parecida a la de los hablantes destino que de origen.
+El algoritmo consta de cinco partes: adquisición, procesamiento,codificación, interpretación y visualización. Durante el proceso de adquisición, el usuario identifica y elige una cámara conectada al ordenador. Luego de elegir la cámara, el sistema comienza a capturar imágenes para proceder con la fase de procesamiento, donde se aplican filtros a esas imágenes con el fin de obtener imágenes en escala de grises. Además, en esta etapa se detectan ojos y rostros. En la fase de codificación, cada parpadeo se captura considerando su duración, para decidir si es largo o corto. Finalmente, se construye la palabra codificada, que tendrá que ser interpretada utilizando código Morse. En la etapa de visualización cada palabra se muestra como un mensaje del paciente.
 
 
 
