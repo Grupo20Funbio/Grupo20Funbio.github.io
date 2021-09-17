@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="banner-text">
-                             <h2 class="animation-box wow bounceIn animated"><strong >Sistema auxiliar de comunicación y actividades</strong><br>diarias para pacientes con Escloriosis Lateral Amiotrófica</h2>
+                             <h2 class="animation-box wow bounceIn animated"><strong >Conversión de voz </strong><br>para personas con Escloriosis Lateral Amiotrófica</h2>
                             
                         </div> <!-- /.banner-text -->
                     </div>
@@ -87,9 +87,10 @@
         <div class="container">
             <div class="row">
                 <p>
-                    Este artículo presenta el desarrollo de un sistema de comunicación para ayudar a pacientes con ELA en una etapa avanzada que pueden mover solo los párpados y a los pacientes en etapas intermedias que pueden mover la cabeza pero no hablar. El sistema fue desarrollado en la tarjeta Raspberry PI 3 (RPI 3) utilizando el software Python que usa bibliotecas para facilitar la interpretación y comunicación de estos pacientes. El sistema incluye una ventana principal que simula un teclado virtual en el que el cursor del ratón se mueve sobre cada letra. En el teclado se pueden encontrar las opciones de borrar, volver atrás, control domótico, escuchar música y acceder a una subventana donde se encuentran los mensajes predefinidos que pueden ser rápidamente identificados y seleccionados por el paciente.  El mouse se desplaza por cada opción por un tiempo determinado y si el cursor está en la opción deseada se selecciona al mover el párpado
+                    A medida que el habla se deteriora, las personas utilizan generadores de voz para comunicarse usando una de las voces electrónicas genéricas del dispositivo. Para reemplazar estas voces genéricas y restaurar la identidad vocal el objetivo de está documentación es desarrollar voces personalizadas para personas con ELA mediante el enfoque de conversión de voz (CV).
 
-Para un paciente avanzado, el algoritmo desarrollado en Python detecta la señal enviada a la tarjeta RPI 3 por el sensor de proximidad TCRT5000 cuando se realiza el movimiento voluntario del párpado y simula el clic izquierdo del ratón para controlar el sistema. Para pacientes con ELA en etapa intermedia, se agregó una cámara web conectada al RPI 3 como medio de comunicación alternativo, ya que pueden controlar el mouse moviendo la cabeza. 
+Para abordar el problema se propuso el enfoque de combinar una transformada espectral estructurada dispersa con deformación de frecuencia basada en regresión lineal múltiple para la conversión espectral y para la modificación de la velocidad de voz. Los datos experimentales incluyeron cuatro hablantes de fuentes sanas y cuatro hablantes de ELA  con disartria leve a grave, que forman 16 pares de hablantes. La conversión de voz modifica las características espectrales y prosódicas del habla de un hablante de origen para resintetizar el habla que suena como la voz de un hablante destino.  El estudio se enfocó en tres cuestiones clave (i) dar  un habla convertida, en este caso se logró una mejora del 80% en el habla; (ii) buena calidad para facilidad de escucha, la calidad de voz convertida estuvo cerca de la escala MOS “buena” en relación con la voz de los hablantes de origen “excelente”;  y (iii) similitud con el hablante objetivo para la identidad de voz, la voz convertida era 3 veces más parecida a la de los hablantes destino que de origen.
+
 
 
                 </p>
