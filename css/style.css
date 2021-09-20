@@ -197,7 +197,7 @@ Cambio!!!
 }
 
 .bg-dark {
-  background: #242930;
+  background: rgb(182, 203, 247);
 }
 
 .parallax-section {
@@ -3320,7 +3320,8 @@ h6{
 }
 
 #homey {
-   -webkit-background-size: cover;
+  /*background: url('../images/banner/ela.jpg');*/
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -3332,4 +3333,3 @@ h6{
   position: relative;
 }
 
-/*background: url('../images/banner/ela.jpg');*/
