@@ -91,7 +91,7 @@ a:hover {
 }
 
 .btn {
-  background-color: #ddd;
+  background-color: #ebec95;
   color: rgb(0, 0, 0);
   padding: 10px 30px;
   border-radius: 0;
@@ -99,14 +99,14 @@ a:hover {
 }
 
 .btn:focus {
-  color: #ddd;
+  color: rgb(221, 221, 221);
 }
 
 /*=================================================================
 Cambio!!!
 ==================================================================*/
 .btn-transparent {
-  border: 1px solid #6CA0F5;
+  border: 1px solid #ebec95;
 	
 }
 
@@ -3368,7 +3368,7 @@ html {
     .promo h1 {
         font-size: 5 rem;
         text-align:center;
-        color:#f3f3f3;
+        color:#ebec95;
         font-weight: 700;
     }
     
@@ -3376,7 +3376,7 @@ html {
     .promo p {
         font-size: 2.5rem;
         text-align:center;
-        color: #dbd68b;
+        color: #fffffe;
         font-weight: 900;
     }
     
