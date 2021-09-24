@@ -3861,3 +3861,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-left: 15px;
 }
 
+/* rtl:begin:remove */
+.text-break {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+/* rtl:end:remove */
+.text-primary {
+  color: #005DFF !important;
+}
