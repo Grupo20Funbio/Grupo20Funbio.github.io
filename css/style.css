@@ -611,7 +611,6 @@ a:hover {
 }
 
 .bg-2 {
-  background-image: url("../images/backgrounds/bg-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1267,12 +1266,12 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  background: #B6CBF7;
 }
 
 .client-info {
   margin: 0 auto;
-  width: 45%;
+  width: 105%;
 }
 
 @media (max-width: 768px) {
@@ -1288,13 +1287,13 @@ a:hover {
 
 .client-thumb img {
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 115px;
   width: 100%;
 }
 
 .client-meta {
-  margin: 0 0 10px;
+  margin: 10px 10px 10px;
 }
 
 .client-meta h3 {
@@ -1320,7 +1319,7 @@ a:hover {
   border-radius: 50px;
   display: block;
   height: 13px;
-  margin: 0 4px;
+  margin: 10px 4px;
   width: 13px;
   opacity: 1;
   filter: alpha(opacity=100);
