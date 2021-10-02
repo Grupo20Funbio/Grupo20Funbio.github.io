@@ -3344,8 +3344,8 @@ html {
   }
   
   body {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;  
   }
@@ -3514,7 +3514,7 @@ Features Style
 */
 
 #features {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 .features .features-content {
@@ -3522,15 +3522,15 @@ Features Style
   position: relative;
   background-color: rgb(170, 96, 96);
   border-radius: 40px;
-  box-shadow: 0px 0px 15px rgba(134, 83, 83, 0.1);
+  box-shadow: 10px 0px 15px rgba(134, 83, 83, 0.1);
 }
 
 .features-item {
   text-align: center;
   padding: 30px;
-  border-radius: 40px;
+  border-radius: 50px;
   background: rgb(255, 255, 255);
-  background: linear-gradient(105deg, #908fc9 0%, #b68ad3 100%);
+  background: linear-gradient(105deg, #908fc9 0%, #b68ad3 80%);
   transition: background-color .5s;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
@@ -3565,7 +3565,7 @@ Features Style
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 10px;
-  height: 60px;
+  height: -60px;
   color: #fff;
   margin-left: 100px;
   margin-right: 100px;
@@ -3622,7 +3622,7 @@ Features Style
 
 .features-item .line-dec {
   width: 100px;
-  height: 2px;
+  height: 4px;
   background-color: rgba(47, 3, 77, 0.719);
   margin: 30px auto;
   transition: all 0.5s;
@@ -3630,7 +3630,7 @@ Features Style
 
 .features-item p {
   position: relative;
-  margin-top: 0px;
+  margin-top: 10px;
   transition: all 0.5s;
 }
 
@@ -3869,4 +3869,5 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .text-primary {
   color: #005DFF !important;
 }
+
 
