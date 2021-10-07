@@ -3384,7 +3384,7 @@ html {
         border:none;
         height:50px;
         border-radius: 30px;
-        padding: 10px 0;
+        padding: 0px 0;
         width: 200px;
         background-color:#f0f181;
         font-size: 1.8rem;
@@ -3514,7 +3514,7 @@ Features Style
 */
 
 #features {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .features .features-content {
