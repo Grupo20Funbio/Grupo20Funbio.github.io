@@ -2779,9 +2779,9 @@ a:focus
 
 a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
-::-moz-selection {background-color:#fb5353;color:#fff;text-shadow:none;}
+::-moz-selection {background-color:#b3f7d2;color:rgb(5, 5, 5);text-shadow:none;}
 
-::selection {background-color: #fb5353;color: #fff;text-shadow: none;}
+::selection {background-color: #b3f7d2;color: rgb(8, 8, 8);text-shadow: none;}
 
 @font-face {font-family: 'Open Sans', sans-serif;}
 
