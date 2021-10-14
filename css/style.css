@@ -646,7 +646,7 @@ a:hover {
 .hero-area .block h1 {
   font-size: 90px;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: c;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -2325,7 +2325,7 @@ Cambio!!!
   position: absolute;
   text-align: center;
   min-width: 100px;
-  left: 40%;
+  left: 48%;
   top: 40%;
   padding: 65px;
   background: rgb(253, 253, 253);
@@ -2930,7 +2930,7 @@ p{
 HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
-	height: 100vh;
+	height: 80vh;
 	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
     padding: 45px 0px;
 }
