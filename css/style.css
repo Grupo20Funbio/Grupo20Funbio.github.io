@@ -3063,6 +3063,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   text-align: center;
   color: rgb(254, 254, 255);
 }
+
+#speciality4{
+  background: #20214f ;
+  text-align: center;
+  color: rgb(254, 254, 255);
+}
 #speciality h2{
     color: rgb(9, 0, 48);
 }
@@ -3918,6 +3924,11 @@ height: 100vh;
 background: linear-gradient(50deg, #5356FF, #5356FF);
   padding: 50px 0px;
 }
+.header1{
+  height: 100vh;
+  background: linear-gradient(50deg, #98F8C3, #98F8C3);
+    padding: 50px 0px;
+}
 #logo {
 font-size: 60px;
 letter-spacing: 20px;
@@ -3927,6 +3938,8 @@ display: inline-block;
 padding: 10px;
   float: left;
 }
+
+
 a#logo:hover{
 text-decoration: none;
 }
@@ -3936,6 +3949,10 @@ font-weight: 400;
 .header img{
 width: 100%;
 }
+
+.header1 img{
+  width: 100%;
+  }
 .top-bar{
   width: 100%;
 }
