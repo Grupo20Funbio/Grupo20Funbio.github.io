@@ -569,6 +569,15 @@ a:hover {
   padding: 5px;
 }
 
+.navigation2 {
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 70;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+
 .navigation .logo {
   padding: 0;
   height: auto;
@@ -2957,6 +2966,15 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	padding: 10px;
     float: left;
 }
+#logo1 {
+	font-size: 80px;
+	letter-spacing: 30px;
+	font-weight: 100;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	padding: 10px;
+    float: left;
+}
 a#logo:hover{
 	text-decoration: none;
 }
@@ -3068,6 +3086,24 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   background: #20214f ;
   text-align: center;
   color: rgb(254, 254, 255);
+}
+
+#speciality5{
+  background: #A1D2FF ;
+  text-align: center;
+  color: rgb(254, 254, 255);
+}
+
+#speciality6{
+  background: #0084ff ;
+  text-align: center;
+  color: rgb(254, 254, 255);
+}
+
+#speciality7{
+  background: #FFFACA ;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 #speciality h2{
     color: rgb(9, 0, 48);
@@ -3927,6 +3963,11 @@ background: linear-gradient(50deg, #5356FF, #5356FF);
 .header1{
   height: 100vh;
   background: linear-gradient(50deg, #98F8C3, #98F8C3);
+    padding: 50px 0px;
+}
+.header2{
+  height: 100vh;
+  background: linear-gradient(50deg, #0085ff, #0085ff);
     padding: 50px 0px;
 }
 #logo {
