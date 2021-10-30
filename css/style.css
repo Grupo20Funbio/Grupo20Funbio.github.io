@@ -653,7 +653,7 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
+  font-size: 120px;
   color: #fff;
   text-transform: c;
   font-weight: 700;
@@ -662,14 +662,14 @@ a:hover {
 
 @media (max-width: 480px) {
   .hero-area .block h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
 .hero-area .block p {
   color: #fff;
   font-size: 20px;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -3109,6 +3109,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #speciality8{
   background: #D5D8DE ;
   text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#speciality9{
+  background: #000000 ;
+  text-align: cenSter;
   color: rgb(0, 0, 0);
 }
 #speciality h2{
