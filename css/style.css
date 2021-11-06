@@ -3103,24 +3103,29 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #speciality7{
   background: #FFFACA ;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(254, 254, 255);
 }
 
 #speciality8{
-  background: #D5D8DE ;
+  background: #249BFF ;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
 #speciality9{
-  background: #000000 ;
-  text-align: cenSter;
+  background: #678BC8 ;
+  text-align: center;
   color: rgb(0, 0, 0);
 }
 
 #speciality10{
   background: #0A0044 ;
-  text-align: cenSter;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#speciality11{
+  background: #249BFF ;
+  text-align: center;
   color: rgb(0, 0, 0);
 }
 #speciality h2{
@@ -3988,11 +3993,16 @@ background: linear-gradient(50deg, #5356FF, #5356FF);
   background: linear-gradient(50deg, #0085ff, #0085ff);
     padding: 50px 0px;
 }
+.header3{
+  height: 100vh;
+  background: linear-gradient(50deg, #00B6EF, #00B6EF);
+    padding: 50px 0px;
+}
 #logo {
 font-size: 60px;
 letter-spacing: 20px;
 font-weight: 100;
-color: white;
+color: rgb(255, 255, 255);
 display: inline-block;
 padding: 10px;
   float: left;
