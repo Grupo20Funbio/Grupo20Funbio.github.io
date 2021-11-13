@@ -3128,6 +3128,18 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   text-align: center;
   color: rgb(0, 0, 0);
 }
+
+#speciality12{
+  background: #C2DBB8 ;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#speciality13{
+  background: #eef3ad;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
 #speciality h2{
     color: rgb(9, 0, 48);
 }
@@ -3996,6 +4008,11 @@ background: linear-gradient(50deg, #5356FF, #5356FF);
 .header3{
   height: 100vh;
   background: linear-gradient(50deg, #00B6EF, #00B6EF);
+    padding: 50px 0px;
+}
+.header4{
+  height: 100vh;
+  background: linear-gradient(50deg, #96C881, #96C881);
     padding: 50px 0px;
 }
 #logo {
