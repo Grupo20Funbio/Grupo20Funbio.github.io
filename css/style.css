@@ -3146,6 +3146,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   text-align: center;
   color: rgb(0, 0, 0);
 }
+
+#speciality15{
+  background: #7691B8;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
 #speciality h2{
     color: rgb(9, 0, 48);
 }
@@ -4019,6 +4025,11 @@ background: linear-gradient(50deg, #5356FF, #5356FF);
 .header4{
   height: 100vh;
   background: linear-gradient(50deg, #96C881, #96C881);
+    padding: 50px 0px;
+}
+.header5{
+  height: 100vh;
+  background: linear-gradient(50deg, #5D66D9, #5D66D9);
     padding: 50px 0px;
 }
 #logo {
