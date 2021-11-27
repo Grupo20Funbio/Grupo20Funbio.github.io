@@ -4050,6 +4050,11 @@ background: linear-gradient(50deg, #5356FF, #5356FF);
   background: linear-gradient(50deg, #ffffff, #ffffff);
     padding: 50px 0px;
 }
+.header7{
+  height: 100vh;
+  background: linear-gradient(50deg, #1E3654, #1E3654);
+    padding: 50px 0px;
+}
 #logo {
 font-size: 60px;
 letter-spacing: 20px;
